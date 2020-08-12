@@ -4,9 +4,9 @@
   "description": "clone of olx",
   "main": "app.js",
   "scripts": {
-    "start": "node dist/app.js",
-    "dev": "nodemon ./src/app.ts",
-    "build": "tsc -p ."
+    "start": "node ./dist/app.js",
+    "start:watch": "nodemon ./dist/app.js",
+    "tsc:watch": "tsc --project tsconfig.json --watch"
   },
   "author": "",
   "license": "ISC",
